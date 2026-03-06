@@ -67,6 +67,13 @@
         .glow-red {
             box-shadow: 0 0 15px #ff003c, 0 0 30px rgba(255, 0, 60, 0.6);
         }
+        .no-underline {
+            text-decoration: none;
+        }
+        .neon-button {
+            display: inline-block;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body class="font-display text-white min-h-screen selection:bg-accent-cyan selection:text-background-dark">
@@ -127,16 +134,16 @@
 <p class="text-silver-grey leading-relaxed text-sm md:text-base opacity-80">
                             Navigate the neon grid and grow your length without hitting the walls. A high-performance remake of the legendary arcade staple.
                         </p>
-<button class="mt-4 flex items-center justify-center gap-2 w-full py-4 bg-primary rounded-lg text-white font-bold uppercase tracking-widest neon-button">
-<span class="material-symbols-outlined">play_arrow</span>
-                            Start Game
-                        </button>
+<a href="snake.html" class="mt-4 flex items-center justify-center gap-2 w-full py-4 bg-primary rounded-lg text-white font-bold uppercase tracking-widest neon-button no-underline">
+    <span class="material-symbols-outlined">play_arrow</span>
+    Start Game
+</a>
 </div>
 </div>
 <div class="group relative flex flex-col bg-white/5 backdrop-blur-sm rounded-xl overflow-hidden neon-border transition-all duration-300 hover:bg-white/10">
 <div class="aspect-video w-full overflow-hidden relative">
 <div class="absolute inset-0 bg-gradient-to-t from-background-dark to-transparent z-10"></div>
-<img alt="Tetris Game" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Abstract colorful neon geometric blocks falling down" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7rJLWCG0t8zbRd7v5AdqT6oxA4BgT22IDoPadlh-KlbEyAzsKTuZpNIQC39tbEDsGiAq83zpyzjQWG3MbvbApRqUbhzXQh3FbB70Mx6ve1thlGpPPk1Iq-H-wwT4Q4x3Y351QBOXMzSAp9HXv5NLGtAkGIkuHh64xo13dB0thlMY7F-mBeP4vhMlbhbyw5xGjVHBzEYOdRxyi_IG4U1gdlHB5VGdXhsyxl-cW0JMIztAYB53WTvfSfLKfj2W-IPt59plq8eMRT838"/>
+<img alt="Tetris Game" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="screen.png"/>
 <div class="absolute top-4 left-4 z-20 bg-primary/80 backdrop-blur-md px-3 py-1 rounded text-xs font-bold tracking-tighter uppercase">Puzzle</div>
 </div>
 <div class="p-8 flex flex-col gap-4 relative z-20">
@@ -147,10 +154,10 @@
 <p class="text-silver-grey leading-relaxed text-sm md:text-base opacity-80">
                             The classic block-stacking challenge reimagined for the digital age. Match shapes and clear lines in this high-intensity neon puzzle.
                         </p>
-<button class="mt-4 flex items-center justify-center gap-2 w-full py-4 bg-primary rounded-lg text-white font-bold uppercase tracking-widest neon-button">
-<span class="material-symbols-outlined">play_arrow</span>
-                            Start Game
-                        </button>
+<a href="tetris.html" class="mt-4 flex items-center justify-center gap-2 w-full py-4 bg-primary rounded-lg text-white font-bold uppercase tracking-widest neon-button no-underline">
+    <span class="material-symbols-outlined">play_arrow</span>
+    Start Game
+</a>
 </div>
 </div>
 </section>
